@@ -1,6 +1,6 @@
 Gerenciamento de tarefas simples utilizando JAVA, Spring DATA e Banco de dados MySQL
 
-Algumas funções como 
+<h1>Algumas funções como</h1> 
 📚 Listar todas as tarefas.
 📚 Buscar uma tarefa por ID.
 📚 Criar uma nova tarefa.
