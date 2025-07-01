@@ -4,7 +4,11 @@
 📚 Listar todas as tarefas.
 <br>
 📚 Buscar uma tarefa por ID.
+<br>
 📚 Criar uma nova tarefa.
+<br>
 📚 Atualizar uma tarefa existente.
+<br>
 📚 Marcar uma tarefa como concluída.
+<br>
 📚 Deletar uma tarefa.
