@@ -3,17 +3,26 @@ package gustavo.Tarefas.Classes;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "tb-tarefa")
+@Table(name = "tb_tarefa")
 public class Task {
 
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(unique = false)
+    private boolean completOUnao = false;
+
     private String descricao;
 
-    private boolean completOUnao;
+    // nao sera utilizado
+    @Deprecated
+    public Task() {
+    }
+
+    public Task(boolean completOUnao, String descricao) {
+        this.completOUnao = completOUnao;
+        this.descricao = descricao;
+    }
 
     public Long getId() {
         return id;
