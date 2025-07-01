@@ -2,6 +2,7 @@
 
 <h3>Algumas funções como</h3> 
 📚 Listar todas as tarefas.
+<br>
 📚 Buscar uma tarefa por ID.
 📚 Criar uma nova tarefa.
 📚 Atualizar uma tarefa existente.
